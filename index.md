@@ -5,7 +5,7 @@ Can we use machine learning to identify declining SEO content before traffic ful
 
 ## 1. Introduction / Problem Statement
 **The Research Question:** Can we use machine learning to identify declining SEO content and prioritize human optimization efforts before search traffic completely decays? 
-**Business Decision:** This model acts as a decision-support system, triaging the content backlog so the human strategy team knows exactly which pages to rewrite first for maximum ROI.
+**Business Decision:** This model acts as a decision-support system, triaging the content backlog so the human strategy team knows exactly which pages to rewrite first for maximum ROI. Human editors at FlyRank have limited time and cannot manually review thousands of web pages. This project solves that bottleneck by using machine learning to predict which specific pages are at high risk of losing search traffic, allowing editors to prioritize their refresh queue and protect client visibility.
 
 ## 2. Data
 **Data Source & Scope:** This study is built on a public-safe subset of the FlyRank ML Internship dataset, evaluating the `fact_content_daily_performance` table. We specifically excluded pages with zero search impressions to prevent unindexed or completely invisible content from artificially skewing our baseline traffic metrics.
